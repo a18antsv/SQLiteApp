@@ -3,6 +3,7 @@
     <string name="details_activity">Mountain Details</string>
     <string name="action_fetch_mountains">Fetch mountains</string>
     <string name="action_drop_database">Drop database</string>
+    <string name="action_sort_name">Sort by name</string>
     <string name="action_sort_height">Sort by height</string>
     <string name="button_update">Update</string>
     <string name="button_delete">Delete</string>

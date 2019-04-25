@@ -105,6 +105,15 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Sorted by height", Toast.LENGTH_SHORT).show();
                 }
                 break;
+            case R.id.action_sort_name:
+                mountainArrayList.clear();
+                updateListView(dbHelper.getData(MountainEntry.TABLE_NAME,null,null,null,null,null,MountainEntry.COLUMN_NAME+" DESC"));
+                if(mountainArrayList.isEmpty()) {
+                    Toast.makeText(getApplicationContext(), "There is nothing to sort", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(getApplicationContext(), "Sorted by name", Toast.LENGTH_SHORT).show();
+                }
+                break;
             case R.id.action_drop_database:
                 mountainArrayList.clear();
                 adapter.clear();

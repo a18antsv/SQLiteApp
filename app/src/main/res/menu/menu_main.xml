@@ -9,6 +9,11 @@
         app:showAsAction="never"/>
 
     <item
+        android:id="@+id/action_sort_name"
+        android:title="@string/action_sort_name"
+        app:showAsAction="never"/>
+
+    <item
         android:id="@+id/action_sort_height"
         android:title="@string/action_sort_height"
         app:showAsAction="never"/>

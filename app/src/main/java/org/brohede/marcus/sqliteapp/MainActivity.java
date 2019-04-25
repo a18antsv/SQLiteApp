@@ -1,10 +1,9 @@
 package org.brohede.marcus.sqliteapp;
 
-import android.content.ContentValues;
 import android.content.Intent;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -35,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
     private MountainAdapter adapter;
     private MountainReaderDbHelper dbHelper;
     private ListView listView;
-    private ArrayList<Integer> deletedMountainIds = new ArrayList<>();
 
     public static final String
             MOUNTAIN_ID = "MOUNTAIN_ID",

@@ -23,6 +23,7 @@
             android:id="@+id/mountain_img"
             android:layout_width="match_parent"
             android:layout_height="194dp"
+            android:contentDescription="Mountain"
             android:elevation="1dp"
             android:scaleType="centerCrop"/>
 
@@ -40,6 +41,7 @@
                     android:id="@+id/editText_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:hint="Name:"
                     android:inputType="text"
                     android:textSize="24sp"
                     android:textStyle="bold"/>
@@ -48,6 +50,7 @@
                     android:id="@+id/editText_height"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:hint="Height (m):"
                     android:inputType="number"
                     android:textSize="14sp"/>
 
@@ -55,6 +58,7 @@
                     android:id="@+id/editText_location"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:hint="Location:"
                     android:inputType="text"
                     android:textSize="14sp"/>
 
@@ -62,6 +66,7 @@
                     android:id="@+id/editText_img_url"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:hint="Image URL:"
                     android:inputType="text"
                     android:textSize="14sp"/>
 
@@ -69,6 +74,7 @@
                     android:id="@+id/editText_url"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:hint="Article URL:"
                     android:inputType="text"
                     android:textSize="14sp"/>
 
